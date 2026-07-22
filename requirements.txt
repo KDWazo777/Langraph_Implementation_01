@@ -1,0 +1,9 @@
+# Python >= 3.11 is required.
+downloads needed: 
+
+fastapi
+uvicorn
+langchain
+langgraph
+langchain-google-genai
+python-dotenv
