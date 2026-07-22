@@ -7,10 +7,12 @@ from app.utils import calculate
 def calculator(expression: str) -> str:
     """
     Calculate a mathematical expression.
-
+    
     Example:
     10+20
-    50*8
+    5**2
+    15/3
+    7*8
     """
 
     return calculate(expression)

@@ -18,12 +18,12 @@ llm = ChatGoogleGenerativeAI(
 agent = create_react_agent(
     model=llm,
     tools=[calculator],
-    prompt="""
-You are an AI assistant.
-
+    prompt=
+"""
 Whenever the user asks a mathematical question,
-ALWAYS use the calculator tool.
+Always use the calculator tool.
 
 Do not perform calculations yourself.
 """
 )
+

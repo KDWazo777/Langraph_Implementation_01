@@ -11,7 +11,6 @@ OPERATORS = {
     ast.USub: operator.neg,
 }
 
-
 def calculate(expression: str) -> str:
     """
     Safely evaluate a mathematical expression.
