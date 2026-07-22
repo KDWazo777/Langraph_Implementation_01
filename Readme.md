@@ -28,7 +28,7 @@ Request
 
 ```json
 {
-    "input":"What is 50*60?"
+    "input":"What is 18*5 ?"
 }
 ```
 
@@ -37,6 +37,6 @@ Response
 ```json
 {
     "success": true,
-    "result": "The answer is 3000."
+    "result": "The answer is 90."
 }
 ```
