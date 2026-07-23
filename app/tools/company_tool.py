@@ -9,6 +9,7 @@ def company_info(question: str) -> str:
 
     data = {
         "ceo": "Salim Aktar",
+        "company_name": "Wazo Solutions Private Limited",
         "location": "Kolkata",
         "founded": "2024",
         "employees": "11"
@@ -18,6 +19,9 @@ def company_info(question: str) -> str:
 
     if "ceo" in question:
         return data["ceo"]
+
+    if "company" in question and "name" in question:
+        return data["company_name"]
 
     if "location" in question:
         return data["location"]
