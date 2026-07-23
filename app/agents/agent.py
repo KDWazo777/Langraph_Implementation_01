@@ -26,5 +26,3 @@ Always use the calculator tool.
 Do not perform calculations yourself.
 """
 )
-
-print(agent.get_graph().draw_ascii())
