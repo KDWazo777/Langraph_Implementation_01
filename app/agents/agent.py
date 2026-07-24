@@ -10,7 +10,7 @@ from app.tools.Cal_tool import calculator, no_result
 load_dotenv()
 
 llm = ChatGoogleGenerativeAI(
-    model="gemini-2.5-flash-lite",
+    model="gemini-3.1-flash-lite",
     google_api_key=os.getenv("GOOGLE_API_KEY"),
     temperature=0
 )
