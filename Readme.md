@@ -73,8 +73,9 @@ Request
 
 Response
 
+```json
 {
     "success": true,
     "result": "I am sorry, but I do not have information about who the Managing Director is."
 }
-
+```
