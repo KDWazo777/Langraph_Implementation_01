@@ -24,6 +24,8 @@ uvicorn app.main:app --reload
 
 POST `/api/test`
 
+If there is a Request with Mathametics formulas(+,-,*,/,%,**)
+
 Request
 
 ```json
@@ -40,3 +42,35 @@ Response
     "result": "The answer is 90."
 }
 ```
+But if the question is about Company related(ceo,location)
+
+Request
+
+```json
+{
+  "input": "who is ceo ?"
+}
+
+Response
+
+```json
+{
+    "success": true,
+    "result": "The CEO of the company is Salim Aktar."
+}
+
+At last if question / promt doesnt match the criteria it would gave result like as followed
+
+Request
+
+{
+  "input": "who is Managing Director ?"
+}
+
+Response
+
+{
+    "success": true,
+    "result": "I am sorry, but I do not have information about who the Managing Director is."
+}
+
