@@ -50,6 +50,7 @@ Request
 {
   "input": "who is ceo ?"
 }
+```
 
 Response
 
@@ -58,14 +59,17 @@ Response
     "success": true,
     "result": "The CEO of the company is Salim Aktar."
 }
+```
 
 At last if question / promt doesnt match the criteria it would gave result like as followed
 
 Request
 
+```json
 {
   "input": "who is Managing Director ?"
 }
+```
 
 Response
 
